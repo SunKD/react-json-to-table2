@@ -55,6 +55,9 @@
   "files": [
     "build/lib"
   ],
+  "precommit": [
+     "build"
+   ],
   "keywords": [
     "react",
     "json",
