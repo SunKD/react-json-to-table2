@@ -1,5 +1,4 @@
 import * as React from "react";
-import "./JsonToTable.css";
 export interface IJsonToTableProps {
     id?: string;
     json: any;

@@ -14,7 +14,6 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-require("./JsonToTable.css");
 var JsonToTableUtils_1 = require("./JsonToTableUtils");
 var JsonToTableUtils_2 = require("./JsonToTableUtils");
 var JsonToTable = /** @class */ (function (_super) {
