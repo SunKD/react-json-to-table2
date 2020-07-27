@@ -20,7 +20,7 @@ export default class JsonToTable extends React.Component<IJsonToTableProps,
     public render() {
         return (
             <div className={'json-to-table'}>
-                <table key={`__j2t_root_table`}>
+                <table className="table" key={`__j2t_root_table`}>
                     <tbody key={`__j2t_root_tbody`}>{this.renderObject(this.props.json, undefined, 0)}</tbody>
                 </table>
             </div>
